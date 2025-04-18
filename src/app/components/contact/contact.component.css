@@ -1,0 +1,30 @@
+.form-control {
+  border-radius: 0 !important;
+}
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e7f5ff;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.contact-item h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.contact-item p {
+  margin-bottom: 0;
+  color: #777;
+}

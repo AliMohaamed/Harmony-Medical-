@@ -1,0 +1,54 @@
+.hero{
+    background-image: url('./../../../../public/images/hero-bg.jpg');
+    background-position: center !important;
+    background-size: cover !important ;
+    background-repeat: no-repeat;
+}
+
+.welcome-text {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+.why-box {
+  background-color: var(--primary-color);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.more-btn{
+    background-color: var(--primary-dark-color);
+    font-size: 1rem;
+    color: var(--white-color) !important;
+    padding: 5px 30px;
+    border-radius: 1rem ;
+    border: none;
+    transition: all 0.3s ease;
+}
+.more-btn:hover{
+    background-color: var(--white-color);
+    color: var(--primary-dark-color)!important;
+}
+.more-btn i{
+    font-size: 0.8rem;
+}
+
+.icon {
+  margin-bottom: 15px;
+  color: var(--primary-dark-color) !important;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.icon-box{
+    padding: 2rem 0;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}

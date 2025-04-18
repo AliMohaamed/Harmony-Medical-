@@ -1,0 +1,146 @@
+<!-- Header -->
+<header class="header sticky-top x">
+  <div class="branding p-2">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="#" class="logo d-flex align-items-center me-auto">
+        <h1>Harmony</h1>
+      </a>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#navModal"
+            aria-controls="navModal"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav gap-2">
+              <li class="nav-item">
+                <a class="nav-link link-color" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="#departments"
+                  >Departments</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="#doctors">Doctors</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link link-color"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown <i class="bi bi-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="#contacts">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="d-none d-md-block cta-btn rounded-5">
+        <a href="#">Make an Appointment</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div
+  class="modal fade"
+  id="navModal"
+  tabindex="-1"
+  aria-labelledby="navModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body py-0">
+        <ul class="list-unstyled">
+          <li class="py-2">
+            <a href="#" class="text-decoration-none text-dark fw-medium"
+              >Home</a
+            >
+          </li>
+          <li class="py-2">
+            <a href="#about" class="text-decoration-none text-dark fw-medium"
+              >About</a
+            >
+          </li>
+          <li class="py-2">
+            <a href="#services" class="text-decoration-none text-dark fw-medium"
+              >Services</a
+            >
+          </li>
+          <li class="py-2">
+            <a
+              href="#departments"
+              class="text-decoration-none text-dark fw-medium"
+              >Departments</a
+            >
+          </li>
+          <li class="py-2">
+            <a href="#doctors" class="text-decoration-none text-dark fw-medium"
+              >Doctors</a
+            >
+          </li>
+          <li class="py-2 dropdown">
+            <a
+              href="#"
+              class="text-decoration-none text-dark fw-medium d-flex align-items-center"
+              data-bs-toggle="dropdown"
+            >
+              Dropdown <i class="bi bi-chevron-down ms-2"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+            </ul>
+          </li>
+          <li class="py-2">
+            <a href="#contact" class="text-decoration-none text-dark fw-medium"
+              >Contact</a
+            >
+          </li>
+          <div class="cta-btn rounded-5">
+            <a href="#">Make an Appointment</a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

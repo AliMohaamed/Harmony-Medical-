@@ -1,0 +1,36 @@
+.qa {
+  background-color: var(--second-background-color);
+}
+.collapsed-menu {
+  background-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+
+[aria-expanded="false"]:hover {
+  color: var(--primary-color);
+}
+[aria-expanded="true"] {
+  background-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.accordion {
+  --bs-accordion-border-width: 0 !important;
+  --bs-accordion-border-radius: 0 !important;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+}
